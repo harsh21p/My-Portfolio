@@ -9,7 +9,6 @@ import Services from "./components/services/Services"
 import Footer from "./components/footer/Footer"
 import Contact from "./components/contact/Contact"
 
-
 const App = () => {
   return (
     <>
