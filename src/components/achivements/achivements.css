@@ -1,0 +1,12 @@
+
+.achivement__thumb {
+    width: 100%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.client__name{
+    margin-top:1rem;
+    align-items: center;
+    align-content: center;
+}

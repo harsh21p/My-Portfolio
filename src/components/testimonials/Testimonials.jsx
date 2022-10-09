@@ -46,7 +46,7 @@ const data = [
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h5>Review from clients</h5>
+      <h5>Review From Clients</h5>
       <h2>Testimonials</h2>
 
       <Swiper className="container testimonials__container"
@@ -60,16 +60,21 @@ const Testimonials = () => {
       {
         data.map(({id, image, name, review}) => {
           return (
-        <SwiperSlide key={id} className="testimonial">
-          <div className="client__avatar">
-            <img src={image} alt="Avatar One"/>
-          </div>
-          <h5 className="client__name">{name}</h5>
-            <small className="client__review">
-              {review}
-             
-            </small>
-        </SwiperSlide>
+            
+            <SwiperSlide key={id} className="testimonial">
+          
+              <div className="client__avatar">
+                <img src={image} alt="Avatar One"/>
+              </div>
+              <h5 className="client__name">{name}</h5>
+                <small className="client__review">
+                  {review}
+                
+                </small>
+            
+            </SwiperSlide>
+   
+        
           )
         })
        }

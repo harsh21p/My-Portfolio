@@ -3,6 +3,12 @@
     padding-bottom: 4rem;
 }
 
+.container.achivements__container {
+    width: 90%;
+  
+    padding-bottom: 4rem;
+}
+
 .client__avatar {
         width: 4rem;
         aspect-ratio: 1/1;
